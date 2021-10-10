@@ -1,0 +1,108 @@
+// :root {
+//    --bs-font-sans-serif: 'Aldrich', sans-serif !important;
+//    --bs-font-monospace: 'Advent Pro', sans-serif !important;
+//    --bs-body-font-family: var(--bs-font-sans-serif) !important;
+// }
+$font-family-sans-serif:     'Aldrich', sans-serif !important;
+
+$primary:            #0B0200;
+$primaryVariant:     #FFFFFF;
+$secondary:          #DCC99C;
+$secondaryVariant:   #FFFFFF;
+
+$onPrimary:          $secondary;
+$onSecondary:      #FFFFFF;
+
+
+$theme-colors: (
+  "primary":            $primary,
+  "primary-variant":    $primaryVariant,
+  "secondary":          $secondary,
+  "secondary-variant":  $secondaryVariant,
+  "on-primary":         $onPrimary,
+  "on-secondary":       $onSecondary
+);
+
+/**/
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+  7: 0.8rem
+);
+// $font-size-base:              1rem;
+
+// $h1-font-size:                $font-size-base * 2.5;
+// $h2-font-size:                $font-size-base * 2;
+// $h3-font-size:                $font-size-base * 1.75;
+// $h4-font-size:                $font-size-base * 1.5;
+// $h5-font-size:                $font-size-base * 1.25;
+// $h6-font-size:                $font-size-base;
+
+/*    NavBar
+-----------------------------------------------------------*/
+$navbar-nav-link-padding-x:         3rem;
+
+$navbar-dark-color:                 $onSecondary;
+$navbar-dark-hover-color:           $onPrimary;
+$navbar-dark-active-color:          $onPrimary;
+
+$position-values: (
+  0: 0,
+  50: 50%,
+  100: 100%,
+  m20vh: -10vh,
+);
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities";
+
+
+
+$utilities: map-merge(
+   $utilities,
+   (
+      "top": map-merge(
+         map-get($utilities, "top"),
+         ( responsive: true ),
+      ),
+      "height": (
+         property: height,
+         class: h,
+         responsive: true,
+         values: (
+            0: 0,
+            25: 25%,
+            50: 50%,
+            75: 75%,
+            100: 100%,
+            auto: auto
+         )
+      )
+   )
+);
+
+/*
+** Modal
+*/
+$modal-content-color: $primary;
+
+/*
+** Input check
+*/
+
+$form-check-input-checked-border-color:   $primaryVariant;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+/*    -  home
+-----------------------------------------------------------*/
+
+body {
+   background-color: $primary;
+   overflow-x: hidden;
+}

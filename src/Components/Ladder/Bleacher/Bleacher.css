@@ -1,0 +1,49 @@
+.LadderBleacher>.col {
+   height: 5rem !important;
+   border-width: 3px;
+   /* padding: 0;
+   margin: 0; */
+}
+
+.LadderBleacher .b-g-n {
+   border-color: var(--bs-secondary-variant);
+   border-left-style: solid;
+   border-top-style: solid;
+}
+.LadderBleacher .b-g-n-r {
+   border-color: var(--bs-secondary-variant);
+   border-left-style: solid;
+   border-bottom-style: solid;
+}
+.LadderBleacher .b-g-s {
+   border-color: var(--bs-secondary-variant);
+   border-left-style: solid;
+   border-bottom-style: solid;
+   border-top-style: solid;
+}
+.LadderBleacher .b-g-s-r {
+   border-color: var(--bs-secondary-variant);
+   border-right-style: solid;
+}
+.LadderBleacher .b-g-f {
+   border-color: var(--bs-secondary-variant);
+   border-left-style: solid;
+   border-top-style: solid;
+}
+
+.b-r-f {
+   border-radius: 10px 0 0 0;
+}
+
+.b-r-n {
+   border-radius: 0 0 0 0;
+}
+.b-r-n-r {
+   border-radius: 0 0 0 0;
+}
+.b-r-s {
+   border-radius: 0 0 0 0;
+}
+.b-r-s-r {
+   border-radius: 0 0 0 0;
+}
