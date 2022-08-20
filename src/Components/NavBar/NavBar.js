@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const NavBar = () => {
    return (
@@ -11,17 +12,31 @@ export const NavBar = () => {
             <div className="collapse navbar-collapse justify-content-md-center py-lg-4" id="navBar">
                <ul className="navbar-nav">
                   <li className="nav-item">
-                     <a href="/#BodySectionWork" className="nav-link active" aria-current="page">HOME</a>
+                     <NavLink
+                        className={'nav-link'}
+                        // activeClassName="active"
+                        to='/'>
+                        INICIO
+                     </NavLink>
                   </li>
                   <li className="nav-item">
-                     <a href="/#BodySectionWork" className="nav-link">MY WORK</a>
+                     <NavLink
+                        className={'nav-link'}
+                        // activeClassName="active"
+                        to='/contact'>
+                        CONTACTO
+                     </NavLink>
                   </li>
+
+                  {/* <li className="nav-item">
+                     <a href="/#BodySectionWork" className="nav-link">EXPERIENCIAS</a>
+                  </li> */}
                   <li className="nav-item">
-                     <a href="/#BodySectionSkills" className="nav-link" aria-disabled="true">SKILLS</a>
+                     <a href="/#BodySectionSkills" className="nav-link" aria-disabled="true">ACERCA DE</a>
                   </li>
-                  <li className="nav-item">
-                     <a href="/#BodyContact" className="nav-link" aria-disabled="true">CONTACTS</a>
-                  </li>
+                  {/* <li className="nav-item">
+                     <a href="/#BodyContact" className="nav-link" aria-disabled="true">CONTACTO</a>
+                  </li> */}
                </ul>
             </div>
          </div>

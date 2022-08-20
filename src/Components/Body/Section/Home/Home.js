@@ -9,8 +9,8 @@ export const BodyHome = () => {
                <div className="row">
                   <div className="col-md-5"></div>
                   <div className="col-md-6 text-center text-md-start">
-                     <h3>Hello everyone!</h3>
-                     <h1 className="ms-5">I'm diego0at</h1>
+                     <h3>compartamos experiencias</h3>
+                     <h1 className="ms-5">¡Bienvenidos!</h1>
                   </div>
                   <div className="col"></div>
                </div>
@@ -26,7 +26,7 @@ export const BodyHome = () => {
 
                   <div className="col-12 col-md-6 text-center fs-4 text-md-start position-relative top-0 top-md-m20vh">
                      <div className="d-inline-block">
-                        <p>Web and mobile application developer</p>
+                        <p>Desarrollador de aplicaciones web y moviles</p>
                         <div className="row mx-auto text-center">
                            <div className="col-0 col-md-1"></div>
                            <div className="col">

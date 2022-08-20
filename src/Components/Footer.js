@@ -2,19 +2,19 @@ import React from 'react'
 
 export const Footer = () => {
    return (
-      <div className="container-fluid">
-         <div className="row border-top pt-2">
+      <div className="container-fluid bg-primary">
+         <div className="row border-top pt-2 pt-4">
             <div className="col-12 col-lg-3">
-               <h5 className="text-secondary">diego0at</h5>
-               <h6><span className="d-inline-block" style={{ width: "1rem" }}></span>diego andres toro</h6>
-               <h6><span className="d-inline-block" style={{ width: "2rem" }}></span>FullStack</h6>
-               <h6><span className="d-inline-block" style={{ width: "3rem" }}></span>StarUp</h6>
+               <h5 className="text-secondary">aStart</h5>
+               <h6><span className="d-inline-block" style={{ width: "1rem" }}></span>scrum</h6>
+               <h6><span className="d-inline-block" style={{ width: "2rem" }}></span>fullStack</h6>
+               <h6><span className="d-inline-block" style={{ width: "3rem" }}></span>starUp</h6>
             </div>
             <div className="col-12 col-lg-9">
                <div className="row align-items-center">
                   <div className="col-12 text-center text-lg-start">
                      <p className="d-inline-block">
-                        Elaborated with the ♥ diego0at. Copyright 2021 - All rights reserved
+                        Elaborated with the ♥ diego0at. Copyright 2022 - All rights reserved
                      </p>
                   </div>
                   <div className="col-12 col-lg-4 d-flex justify-content-evenly">

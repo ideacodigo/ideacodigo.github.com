@@ -1,27 +1,4 @@
-// :root {
-//    --bs-font-sans-serif: 'Aldrich', sans-serif !important;
-//    --bs-font-monospace: 'Advent Pro', sans-serif !important;
-//    --bs-body-font-family: var(--bs-font-sans-serif) !important;
-// }
-$font-family-sans-serif:     'Aldrich', sans-serif !important;
-
-$primary:            #0B0200;
-$primaryVariant:     #FFFFFF;
-$secondary:          #DCC99C;
-$secondaryVariant:   #FFFFFF;
-
-$onPrimary:          $secondary;
-$onSecondary:      #FFFFFF;
-
-
-$theme-colors: (
-  "primary":            $primary,
-  "primary-variant":    $primaryVariant,
-  "secondary":          $secondary,
-  "secondary-variant":  $secondaryVariant,
-  "on-primary":         $onPrimary,
-  "on-secondary":       $onSecondary
-);
+@import './settings';
 
 /**/
 $display-font-sizes: (
@@ -33,14 +10,10 @@ $display-font-sizes: (
   6: 2.5rem,
   7: 0.8rem
 );
-// $font-size-base:              1rem;
 
-// $h1-font-size:                $font-size-base * 2.5;
-// $h2-font-size:                $font-size-base * 2;
-// $h3-font-size:                $font-size-base * 1.75;
-// $h4-font-size:                $font-size-base * 1.5;
-// $h5-font-size:                $font-size-base * 1.25;
-// $h6-font-size:                $font-size-base;
+/*    Buttons
+-----------------------*/
+$input-font-family: 'Roboto Mono';
 
 /*    NavBar
 -----------------------------------------------------------*/
@@ -50,15 +23,25 @@ $navbar-dark-color:                 $onSecondary;
 $navbar-dark-hover-color:           $onPrimary;
 $navbar-dark-active-color:          $onPrimary;
 
-$position-values: (
-  0: 0,
-  50: 50%,
-  100: 100%,
-  m20vh: -10vh,
+$custom-position-values: (
+  m20vh: -20vh,
+  nem-2: -2em,
+  nem-3: -3em,
 );
 
+$spacer: 1rem;
+$custom-spacers: (
+   6: $spacer * 5,
+   7: $spacer * 8,
+   8: $spacer * 11,
+);
+   
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
+   
+$position-values: map-merge($position-values, $custom-position-values);
+$spacers: map-merge($spacers, $custom-spacers);
+
 @import "bootstrap/scss/utilities";
 
 
@@ -82,9 +65,16 @@ $utilities: map-merge(
             100: 100%,
             auto: auto
          )
-      )
+      ),
+      "font-family": (
+         property: font-family,
+         class: font,
+         values: (body: 'Roboto Mono')
+      ),
    )
 );
+
+
 
 /*
 ** Modal

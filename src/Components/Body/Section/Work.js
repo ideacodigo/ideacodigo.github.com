@@ -11,8 +11,8 @@ export const BodySectionWork = ({ url = "diego0at.github.io", urlSource = "", ti
                </div>
                <div className="">
                   <p className="fs-6">{description}</p>
-                  <button className="btn btn-secondary-variant me-3" onClick={handleShow}>Projects</button>
-                  <button className="btn btn-outline-secondary" onClick={handleShow}>Contribute</button>
+                  <button className="btn btn-secondary-variant me-3" onClick={handleShow}>Proyectos</button>
+                  <button className="btn btn-outline-secondary" onClick={handleShow}>Contribuir</button>
                </div>
             </div>
             <div className="col-12 col-lg-4 text-center mt-4 mt-lg-0">

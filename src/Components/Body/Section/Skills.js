@@ -7,7 +7,7 @@ export const BodySectionSkills = ({ handleShow }) => {
          <div className="row justify-content-center">
             <div className="col-11 col-lg-6 border border-1 rounded-3 text-center">
                <div className="p-3">
-                  <p className="fs-6">programming languages, databases and programs that I have used to create information systems.</p>
+                  <p className="fs-6">lenguajes de programación, bases de datos y programas que he utilizado para crear sistemas de información.</p>
                   <h4 className="text-secondary">
                      There are some of my Skills
                   </h4>
@@ -15,7 +15,7 @@ export const BodySectionSkills = ({ handleShow }) => {
             </div>
             <div className="col-12 mt-5 text-center">
                <div>
-                  <h5 className="border-bottom text-secondary pb-2">Application web</h5>
+                  {/* <h5 className="border-bottom text-secondary pb-2">Application web</h5> */}
                   <div className="row align-items-end py-5">
 
                      <div className="col">
