@@ -14,14 +14,14 @@ export const Footer = () => {
                <div className="row align-items-center">
                   <div className="col-12 text-center text-lg-start">
                      <p className="d-inline-block">
-                        Elaborated with the ♥ diego0at. Copyright 2022 - All rights reserved
+                        Elaborated with the ♥ diego_release. Copyright 2022 - All rights reserved
                      </p>
                   </div>
                   <div className="col-12 col-lg-4 d-flex justify-content-evenly">
                      <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/diego0at/"><img src="./assets/icons/linkedin.png" alt="linkedin" /></a>
-                     <a rel="noreferrer" target="_blank" href="https://github.com/diego0at"><img src="./assets/icons/github.png" alt="github" /></a>
-                     <a rel="noreferrer" target="_blank" href="https://twitter.com/diego0at/"><img src="./assets/icons/twitter.png" alt="twitter" /></a>
-                     <a rel="noreferrer" target="_blank" href="https://www.instagram.com/diego0at/"><img src="./assets/icons/instagram.png" alt="instagram" /></a>
+                     <a rel="noreferrer" target="_blank" href="https://github.com/ideacodigo"><img src="./assets/icons/github.png" alt="github" /></a>
+                     <a rel="noreferrer" target="_blank" href="https://twitter.com/diego_release/"><img src="./assets/icons/twitter.png" alt="twitter" /></a>
+                     <a rel="noreferrer" target="_blank" href="https://www.instagram.com/diego_release/"><img src="./assets/icons/instagram.png" alt="instagram" /></a>
                   </div>
                   <div className="col-12 col-lg-8 text-end">
                      <div className="row w-100 text-secondary text-end d-inline-block" style={{ fontSize: "60px", lineHeight: "normal"}}>

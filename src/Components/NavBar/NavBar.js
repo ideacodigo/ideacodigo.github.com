@@ -31,9 +31,13 @@ export const NavBar = () => {
                   {/* <li className="nav-item">
                      <a href="/#BodySectionWork" className="nav-link">EXPERIENCIAS</a>
                   </li> */}
+
+{/* 
                   <li className="nav-item">
                      <a href="/#BodySectionSkills" className="nav-link" aria-disabled="true">ACERCA DE</a>
-                  </li>
+                  </li> */}
+
+
                   {/* <li className="nav-item">
                      <a href="/#BodyContact" className="nav-link" aria-disabled="true">CONTACTO</a>
                   </li> */}

@@ -1,73 +1,50 @@
 # Web portafolio
 
-Pequeño espacio para publicar objetivos, notas y proyectos que estaré desarrollando para estar al diá.
+# Configuración
 
-## Comenzando
+Instalamos todas las dependencias: `npm install`
 
-Configuration
+## Diseño
 
-_verificar el package.json_
+Diseño elaborado a partir del framework **[bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)** y **scss.** 
 
-1. npm-install
-2. npm install --save bootstrap
-3. npm install [scss](https://www.oscarlijo.com/blog/usar-bootstrap-en-react/)
+[Utilizar y modificar](https://www.oscarlijo.com/blog/usar-bootstrap-en-react/) estilos de bootstrap en react. Primero instalamos las herramientas.
 
-### Pre-requisitos
+```bash
+# Instalar las herramientas
+npm install --save bootstrap
+npm install scss
+```
 
-Curiosidad
+Segundo creamos un archivo de [configuración](https://getbootstrap.com/docs/5.1/customize/sass/) `custom.scss`
 
-### Instalación
+```scss
+// Anulamos las variables de bootstrap con variables personalizadas
+		$body-bg: #000;
 
-_verificar el package.json_
+// Importamos bootstrap y las variables por defecto
+		@import '~bootstrap/scss/bootstrap.scss';
+```
 
-## Ejecutando las pruebas
+Ahora importamos el archivo de configuración
 
-_No publicadas_
+```jsx
+import './custom.scss';
+```
 
-### Analice las pruebas end-to-end
+## Estructura y nomenclatura de directorios y archivos
 
-_No Publicadas_
+Existen diferentes nomenclaturas y estructuras para organizar tus archivos, todas se adaptan según necesidades en específico, tanto para proyectos complejos como para proyectos simples y rápidos.
 
-### Y las pruebas de estilo de codificación
+Lo que se recomienda para desarrolladores que desean incluir una regla de organización de sus archivos, es realizar una pequeña investigación que no nos lleve mucho tiempo, en una hora ya tiene que tener definida que estructuras deseas seguir no necesaria mente al pie de la letra, pero si como guía. [es.react.org](https://es.reactjs.org/docs/faq-structure.html) nos brinda algunas recomendaciones.
 
-_En desarrollo_
+<aside>
+💡 Para el presente proyecto por recomendación, implementare una [estructura personalizada](https://hackernoon.com/structuring-projects-and-naming-components-in-react-1261b6e18d76) la cual fue tomada de [HackerNoon.com](http://HackerNoon.com), publicación realizada por [@viniciusdacal](https://hackernoon.com/u/viniciusdacal)
 
-## Despliegue
+</aside>
 
-_Guía en desarrollo_
+## Proyecto y documentación
 
-## Construido con
+El proyecto es llevado y documentado por mi persona [@diego_release](https://www.instagram.com/diego_release/), practico mis habilidades en la creación de mi portafolio. 
 
-_verificar el package.json_
-
-## Contribuyendo 
-
-_Desarrollo_
-
-## Wiki
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [iniciarWeb](https://iniciarweb.online/)
-
-## Versionado
-
-_Investigación_
-
-## Autores
-
-* **danddress** - *Trabajo Inicial* - [Insta](https://instagram.com/danddress)
-* **danddress** - *Documentación* - [Github](https://github.com/diego0at)
-
-También puedes mirar la lista de todos los [proyectos](https://github.com/diego0at)
-
-## Licencia 
-
-Libre para fines educativos
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-
----
-Con ❤️ por [danddress](https://instagram.com/danddress) 😊
+Puedes observar otros proyectos en mi [GitHub - ideacodigo](https://github.com/ideacodigo).
