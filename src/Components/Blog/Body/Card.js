@@ -1,7 +1,7 @@
 import React from 'react';
 
-export const BlogBodyCard = ({ title, icon: Icon, route = '', description, porcentaje }) => {
-   // console.log(route.length);
+export const BlogBodyCard = ({ title, icon: Icon, description, porcentaje, projects={} }) => {
+   
    return (
       <div className="col-12 col-md-3 mb-4">
          <div className="shadow border rounded-3 bg-secondary-variant" >
@@ -10,10 +10,8 @@ export const BlogBodyCard = ({ title, icon: Icon, route = '', description, porce
                <Icon size='4rem' color='black' />
                
                <h5 className="text-primary-variant fw-bolder text-start border-top pt-2 mt-3">{title}</h5>
-               
-               {
-                  route.length > 0 && <a href={route} target="black" className="link-primary">Gif Expert App</a>
-               }
+
+               { projects.length > 0 && projects.map(({key, name, url})=>(<div><a key={name} href={url} target="black" className="link-primary">{name}</a><br/></div>))}
 
                <p className="m-0 text-start font-body text-truncate-multiline">{description}</p>
                <div className="progress mt-2">

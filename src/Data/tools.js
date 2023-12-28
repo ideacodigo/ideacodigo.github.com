@@ -4,6 +4,10 @@ const tools = {
          name: 'react',
          description: 'React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.',
          jobs: [],
+         projects: [
+            {name: 'Gif Expert App', url: 'https://ideasearchgif.netlify.app'},
+            {name: 'To Do App', url: 'https://ideacodigo.github.io/to-do/'},
+         ]
       }
    ],
    language: [

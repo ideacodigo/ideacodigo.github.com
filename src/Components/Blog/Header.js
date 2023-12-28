@@ -13,7 +13,7 @@ export const BlogHeader = ({handleShow}) => {
                   <div className="col-md-6 text-center text-md-start">
                      <h3>Notas desarrollo web y móvil</h3>
                      <p className="text-secondary">Aprende y comparte experiencias</p>
-                     <a className='btn btn-secondary' onClick={handleShow}>Ver notas</a>
+                     {/* <a className='btn btn-secondary' onClick={handleShow}>Ver notas</a> */}
                   </div>
                   <div className="col"></div>
                </div>
@@ -30,9 +30,9 @@ export const BlogHeader = ({handleShow}) => {
                      <UIInfo />
                   </div>
 
-                  <div className="col-12 col-md-5 text-center fs-4 text-md-start position-relative top-0 top-md-m20vh">
+                  {/* <div className="col-12 col-md-5 text-center fs-4 text-md-start position-relative top-0 top-md-m20vh">
                      <BlogFormSubscribe />
-                  </div>
+                  </div> */}
 
                   <div className="col"></div>
 
