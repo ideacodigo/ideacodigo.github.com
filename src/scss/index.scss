@@ -71,6 +71,12 @@ $utilities: map-merge(
          class: font,
          values: (body: 'Roboto Mono')
       ),
+      "font-size": (
+         rfs: true,
+         property: font-size,
+         class: fs,
+         values: $display-font-sizes
+      ),
    )
 );
 

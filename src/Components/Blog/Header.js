@@ -1,5 +1,4 @@
 import React from 'react';
-import { BlogFormSubscribe } from './Form/Subscribe';
 import { UIInfo } from '../UI/Info';
 
 export const BlogHeader = ({handleShow}) => {

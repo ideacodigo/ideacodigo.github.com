@@ -28,6 +28,15 @@ export const NavBar = () => {
                      </NavLink>
                   </li>
 
+                  <li className="nav-item">
+                     <NavLink
+                        className={'nav-link'}
+                        // activeClassName="active"
+                        to='/podcast'>
+                        README ON ME
+                     </NavLink>
+                  </li>
+
                   {/* <li className="nav-item">
                      <a href="/#BodySectionWork" className="nav-link">EXPERIENCIAS</a>
                   </li> */}

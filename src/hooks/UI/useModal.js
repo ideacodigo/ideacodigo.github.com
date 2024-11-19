@@ -19,9 +19,9 @@ export const useModal = () => {
          }
       )
 
-      setTimeout(() => {
-         prepareModal.show();
-      }, 2000)
+      // setTimeout(() => {
+      //    prepareModal.show();
+      // }, 2000)
 
    }, [])
 

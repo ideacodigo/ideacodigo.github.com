@@ -14,7 +14,7 @@ export const Footer = () => {
                <div className="row align-items-center">
                   <div className="col-12 text-center text-lg-start">
                      <p className="d-inline-block">
-                        Elaborated with the ♥ diego_release. Copyright 2023 - All rights reserved
+                        Elaborated with the ♥ diego_release. Copyright 2024 - All rights reserved
                      </p>
                   </div>
                   <div className="col-12 col-lg-4 d-flex justify-content-evenly">

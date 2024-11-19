@@ -9,6 +9,7 @@ import { Footer } from '../../Components/Footer'
 import { NavBar } from '../../Components/NavBar/NavBar'
 import { ScreenBlog } from '../Blog/Blog'
 import { ScreenContact } from '../Contact/Contact'
+import { ScreenPodcast } from '../Podcast/Podcast'
 
 export const ScreenRouters = () => {
    return (
@@ -18,6 +19,7 @@ export const ScreenRouters = () => {
             <Routes>
                <Route path="/" element={<ScreenBlog />}/>
                <Route path="/contact" element={<ScreenContact />}/>
+               <Route path="/podcast" element={<ScreenPodcast />}/>
             </Routes>
             <Footer />
          </BrowserRouter>
