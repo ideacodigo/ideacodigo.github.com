@@ -27,5 +27,14 @@
 /* before player */
 
 .episode-banner-of-content {
-   height: 130px;
+   height: 150px;
+}
+
+.episode-comments{
+   bottom: -53px;
+   
+}
+
+.episode-form {
+   top: 100px;
 }
